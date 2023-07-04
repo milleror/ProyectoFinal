@@ -1,0 +1,248 @@
+/* pagina index */
+
+.container { 
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  align-items: center;
+  gap: 5px;
+}
+
+.h1 {
+font-family: Arial;
+}
+
+.item {
+  object-fit: cover;
+  width: 190 ;
+  height: 190;
+  text-align:center;  
+}
+
+.item:hover {
+  border: 2px solid rgb(0, 255, 166);
+}
+
+img{
+  object-fit: cover;
+  width:30%;
+  height:30%;
+}
+
+.title { 
+  
+  display: grid;  
+  text-align: center;
+  top: 10%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  padding: 30px;
+}
+
+
+.title1 { 
+      
+  display: grid;  
+  position: absolute;
+  
+  top: 80%;
+  left: 40%;
+  
+  
+}
+
+
+/* pagina Contacto */
+
+    .form-container {
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f5f5f5;
+    }
+    
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .form-container label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container input[type="tel"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .form-container input[type="submit"] {
+      width: 100%;
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+
+    .form-container input[type="submit"]:hover {
+      background-color: rgb(38, 208, 38) ;
+    }
+
+    .fin2 { 
+      
+      display: grid;  
+      position: absolute;
+      top: 60%;
+      left: 47%;
+      margin: -25px 0 0 -25px;
+      
+    }
+
+    /* Estilos CSS para los mensajes de éxito y error */
+    .success-message {
+      color: green;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    
+    .error-message {
+      color: red;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+
+/* pagina Enlaces */
+
+.enl1 { 
+  display: grid;  
+  position: absolute;  
+  top: 30%;
+  left: 30%;
+}
+
+.btneg{
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr  ;
+  padding: 20px;
+  
+}
+
+.btnE1{
+  
+  background-color: #1cb1d2;
+  display:inline-block;
+  width: 188px;;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 32px;
+  border: 10px;
+  border-radius: 10px;
+}
+
+.btnE1:hover{
+    background-color:#7abdcc7c ;
+}
+
+.btnE2{
+  
+  background-color: #744edc;
+  display:inline-block;
+  width: 188px;;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 32px;
+  border: 10px;
+  border-radius: 10px;
+}
+
+.btnE2:hover{
+    background-color:#744edc79 ;
+}
+
+
+.btnE3{
+  background-color: #d21c5f;
+  display:inline-block;
+  width: 188px;;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 32px;
+  border: 10px;
+  border-radius: 10px;
+}
+
+.btnE3:hover{
+    background-color:#d21c5f83 ;
+}
+
+
+
+/* pagina Hoja de vida */
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+.section p {
+  margin: 5px 0;
+}
+
+.section ul {
+  margin: 5px 0;
+  padding-left: 20px;
+}
+
+/* pagina Servicios */
+
+.item1 {
+  
+  object-fit: cover;
+  width: 190 ;
+  height: 190;
+  text-align:center;  
+}
+
+
+.fin { 
+  
+  display: grid;  
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  
+}
+
+/* Boton en todas las paginas */
+
+.bnt1{
+  background-color: rgb(80, 80, 195);
+  border: 10PX;
+  padding: 15px 32px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 16px;
+  margin: 4px 2 px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.bnt1:hover{
+    background-color: rgba(37, 37, 152, 0.432) ;
+}

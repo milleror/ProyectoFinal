@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de contacto</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">  
+</head>
+
+<body>
+  <div class="fin2">
+    <a href="index.html">
+      <button class="bnt1" >Regresar</button>
+    </a>
+  </div>
+  
+  <div class="form-container">
+        <h2>Formulario de contacto</h2>
+    <form>
+
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" required>
+
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Enviar">  
+
+    </form>
+
+    <div id="success-message" class="success-message" style="display: none;">
+      ¡Formulario enviado con éxito!
+    
+    </div>
+
+  </div>   
+
+  <script src="myscript.js"></script>
+</body>
+</html> 
